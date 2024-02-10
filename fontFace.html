@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Face</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Menggunakan tinggi layar untuk menengahkan */
+            margin: 0; /* Menghapus margin bawaan */
+        }
+        @font-face {
+            font-family: 'Alex Brush';
+            src: url(AlexBrush-Regular.ttf);
+        }
+
+        /* Font kedua */
+        @font-face {
+            font-family: 'Fira Sans';
+            src:url(font/FiraSans-Four.otf);
+            font-weight: normal;
+           
+        }
+        @font-face {
+            font-family: 'Fira Sans';
+            src: url(font/FiraSans-Bold.otf);
+            font-weight: bold;
+        }
+
+        @font-face {
+        font-family: 'open_sansregular';
+        src: url('web fonts/opensans_regular_macroman/OpenSans-Regular-webfont.woff') format('woff');
+
+        font-weight: normal;
+        font-style: normal;
+    }
+
+        @font-face {
+        font-family: 'open_sansBold';
+        src: url('web fonts/opensans_bold_macroman/OpenSans-Bold-webfont.woff') format('woff');
+        font-weight: bold;
+        font-style: bold;
+
+    }
+
+
+        h1{
+            text-align: center;
+            font-family: 'open_sansBold';
+          
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Hallo Dunia</h1>
+</body>
+</html>
